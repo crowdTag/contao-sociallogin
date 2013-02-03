@@ -1,0 +1,39 @@
+Readme - Bitte lesen:
+
+Bei der Benutzung von Contao ist sicher den meisten aufgefallen, 
+dass es kein gutes Modul gibt, welche Social-Media Logins wie Facebook oder Googleplus vereint.
+Auch gibt es keine ausgereifte Lösung, welche eine Dokumentation bietet.
+Natürlich kann man sich das alles mit geringen Aufwand selber erstellen. 
+Jedoch ist der Sinn von OpenSource, vorhandenen Quelltext nicht neu entwerfen zu müssen. 
+
+Also habe ich vor, gemeinsam mit freiwilligen, ein einfach gehaltenes, 
+jedoch funktionales Modul für diese Aufgabe zu schreiben.
+
+
+JEDER kann eigene Ideen einbringen und Verbesserungsvorschläge sind sehr gerne gesehen.
+
+
+Meine Überlegung zu den Anforderungen:
+
+-Frontend:
+   -Loginformular erweitern:  Es sollten möglichst alle social networks zur Anmeldung dienen (z.B. Facebook, Google +, Twitter, etc.)
+   -Eigenständiges Formular für diese Loginmöglichkeiten.
+   -Datenrechtliche Beachtung: Das Einbinden sollte vom Benutzer bestätigt werden (damit der User nicht ohne seinen Willen Daten freigeben muss)
+   -Per CSS leicht manipulierbahr sein
+   -Möglichst auf JS basierend
+
+-Backend:
+   -Verwaltung verschiedener UNABHÄNGIGER Formulare
+   -Mit eigenen Funktionen per Backend erweiterbar (also z.B. anlegen des neuen Users in die Datenbank)
+   -Auswahl der Socialloginmöglichkeiten beschränken (also z.B. erlaube: Facebook + Twitter, deaktiviere Google +)
+   -Auswahl, welche Userdaten abgefragt werden sollen (z.B. Name + Bild oder nur Name?)
+
+Natürlich lässt sich diese Liste noch erweitern. Ich freue mich auf eure Vorschläge.
+
+Denn jeder hat etwas davon, wenn endlich eine einheitliche und gute Lösung geschaffen wird.
+
+
+Für Fragen und Anregungen stehe ich Euch gerne zur Verfügung:
+Tobias Zimmermann
+oransolutions@gmail.com
+Xing:   http://www.xing.com/profile/Tobias_Zimmermann48
